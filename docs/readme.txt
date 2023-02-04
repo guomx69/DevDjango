@@ -18,9 +18,11 @@ django-admin startapp map apps/map
  git add . ; git commit -m 'saving'; git push origin master
 
  git checkout -b dev
- 
+
  #change from master to main
  git branch --move master main.
  git push --set-upstream origin main.
  git branch --all
  git push origin --delete master.
+
+ #local remotes/origin/master
