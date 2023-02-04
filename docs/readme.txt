@@ -25,4 +25,7 @@ django-admin startapp map apps/map
  git branch --all
  git push origin --delete master.
 
- #local remotes/origin/master still have  a master
+ #local remotes/master still exist in the ocal
+ understand that there is a difference between a remote branch, and a branch that exists in 
+ a remote repository. Remote branches are local branches that map to branches of the remote repository
+ git fetch --prune
