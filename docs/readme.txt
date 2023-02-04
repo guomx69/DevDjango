@@ -25,4 +25,4 @@ django-admin startapp map apps/map
  git branch --all
  git push origin --delete master.
 
- #local remotes/origin/master
+ #local remotes/origin/master still have  a master
