@@ -29,3 +29,6 @@ django-admin startapp map apps/map
  understand that there is a difference between a remote branch, and a branch that exists in 
  a remote repository. Remote branches are local branches that map to branches of the remote repository
  git fetch --prune
+
+ #show you an updated list of branches that really exist on the remote 
+ git branch -r  
